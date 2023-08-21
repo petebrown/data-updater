@@ -833,11 +833,9 @@ def update_csv(df_name, old_df, updates):
             + 1
         )
         updated_df["weekday"] = updated_df.game_date.dt.day_name()
-    updated_df = (
-        updated_df.drop_duplicates()
-        .sort_values(sort_cols[df_name])
-        .reset_index(drop=True)
-    )
+    
+    updated_df = updated_df.sort_values(sort_cols[df_name]).reset_index(drop=True)
+
     updated_df.to_csv(f"./data/{df_name}.csv", index=False)
     return updated_df
 
