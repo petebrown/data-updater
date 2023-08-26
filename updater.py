@@ -833,6 +833,8 @@ def update_csv(df_name, old_df, updates):
             + 1
         )
         updated_df["weekday"] = updated_df.game_date.dt.day_name()
+
+        updated_df.loc[updated_df.game_date == "2023-08-19", "attendance"] = 5594
     
     updated_df = updated_df.sort_values(sort_cols[df_name]).reset_index(drop=True)
 
