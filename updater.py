@@ -811,7 +811,7 @@ def update_csv(df_name, old_df, updates):
         "subs": ["game_date"],
         "sub_mins": ["game_date"],
         "yellow_cards": ["game_date", "min_yc"],
-        "red_cards": ["game_date", "red_yc"],
+        "red_cards": ["game_date", "min_so"],
         "results": "game_date",
     }
 
