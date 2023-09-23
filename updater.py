@@ -683,27 +683,35 @@ class events_df:
 
     def get_yellow_cards(self):
         cards = self.cards
-        yellows = (
-            cards.query("card_type == 'yellow-card'")
-            .rename(columns={"minute": "min_yc"})
-            .drop(columns=["card_type"])
-        )
-        if yellows.empty:
-            print("No yellow cards")
-            return None
+        if not cards.empty:
+            yellows = (
+                cards.query("card_type == 'yellow-card'")
+                .rename(columns={"minute": "min_yc"})
+                .drop(columns=["card_type"])
+            )
+            if yellows.empty:
+                print("No yellow cards")
+                return None
+            else:
+                return yellows
         else:
-            return yellows
+            print("No yellow cards (No cards at all)")
+            return None
 
     def get_red_cards(self):
         cards = self.cards
-        reds = (
-            cards.query("card_type.str.contains('red')")
-            .rename(columns={"minute": "min_so"})
-            .drop(columns=["card_type"])
-        )
-        if reds.empty:
-            print("No reds cards")
-        return reds
+        if not cards.empty:
+            reds = (
+                cards.query("card_type.str.contains('red')")
+                .rename(columns={"minute": "min_so"})
+                .drop(columns=["card_type"])
+            )
+            if reds.empty:
+                print("No reds cards")
+            return reds
+        else:
+            print("No red cards (No cards at all)")
+            return None
 
     def get_subs(self):
         player_subs = []
@@ -847,11 +855,11 @@ def update_df(df_name, updates):
 
     old_df = pd.read_csv(f"./data/{df_name}.csv", parse_dates=["game_date"])
 
-    print(f"{len(updates)} possible updates found...")
-
-    if updates.empty or updates is None:
+    if updates is None or updates.empty:
         print(f"No updates required for {df_name.upper()}.")
     else:
+        print(f"{len(updates)} possible updates found...")
+        
         updates = updates[~updates.game_date.isin(old_df.game_date)]
 
         n_updates = len(updates)
