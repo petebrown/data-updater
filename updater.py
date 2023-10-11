@@ -112,8 +112,11 @@ class fixtures:
 
 
 class league_table:
-    def __init__(self, date, venue=None):
-        self.date = date
+    def __init__(self, date, pre_match=False, venue=None):
+        if pre_match is True:
+            self.date = self.get_prematch_date(date)
+        else:
+            self.date = date
         self.venue = venue
 
         self.url = self.get_url()
@@ -126,6 +129,13 @@ class league_table:
         self.pos = self.get_pos()
         self.pts = self.get_pts()
 
+    
+    def get_prematch_date(self, date):
+        prev_day = pd.to_datetime(date) - pd.Timedelta(days=1)
+        prev_day = prev_day.strftime("%Y-%m-%d")
+        return prev_day
+    
+    
     def get_url(self):
         year = self.date[:4]
         month = pd.to_datetime(self.date).month_name().lower()
