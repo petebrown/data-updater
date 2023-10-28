@@ -919,6 +919,6 @@ def main(date_req=None):
                     update_df(df, updates)
 
 
-date_type = "available"
+date_type = "today"
 
 main(date_type)
