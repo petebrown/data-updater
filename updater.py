@@ -403,6 +403,8 @@ def get_cup_name(cup_data):
         cup_stage = cup_name["full"]
         if re.search(r"North(?:ern)?", cup_stage):
             cup_section = re.search(r"North(?:ern)?", cup_stage).group(0)
+        else:
+            cup_section = None
     else:
         cup_stage = None
         cup_section = None
