@@ -448,7 +448,7 @@ def get_shootout_outcome(pen_gf, pen_ga):
         if pen_gf > pen_ga:
             pen_outcome = "W"
         elif pen_gf < pen_ga:
-            return "L"
+            pen_outcome = "L"
         pen_score = f"{pen_gf}-{pen_ga}"
     else:
         pen_outcome = None
@@ -807,11 +807,11 @@ def get_existing_dates():
 
 
 def check_dates(dates):
-    f = fixtures()
-    
     if dates in ["played", "all", "available"]:
+        f = fixtures()
         dates = f.played["game_date"].dt.date.astype(str).unique().tolist()
     else:
+        f = fixtures(dates)
         if f.today.empty:
             print("No game today.")
             dates = None
