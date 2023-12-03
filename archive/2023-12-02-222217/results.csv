@@ -4860,7 +4860,7 @@ season,game_date,game_no,opposition,venue,score,outcome,goals_for,goals_against,
 2023/24,2023-08-08,2,Barnsley,A,2-2,D,2.0,2.0,0.0,Cup,Carabao Cup,League Cup,1,,,,4343.0,Tuesday,Ian Dawes,19:45,1,,First Round North,,North,,W,7-6,7.0,6.0,,,,,,,pens,W,Won 7-6 on pens,90,Oakwell,Thomas Kirk
 2023/24,2023-08-12,3,Milton Keynes Dons,A,0-1,L,0.0,1.0,-1.0,League,League Two,Football League,2,4.0,23.0,0.0,5831.0,Saturday,Ian Dawes,15:00,,,,,,,,,,,,,,,,,,,,90,Stadium MK,Sunny Sukhvir Gill
 2023/24,2023-08-15,4,Harrogate Town,H,3-0,W,3.0,0.0,3.0,League,League Two,Football League,3,4.0,17.0,3.0,5278.0,Tuesday,Ian Dawes,19:45,,,,,,,,,,,,,,,,,,,,90,Prenton Park,Lee Swabey
-2023/24,2023-08-19,5,Salford City,H,3-4,L,3.0,4.0,-1.0,League,League Two,Football League,4,4.0,19.0,3.0,5594,Saturday,Ian Dawes,15:00,,,,,,,,,,,,,,,,,,,,90,Prenton Park,Scott Tallis
+2023/24,2023-08-19,5,Salford City,H,3-4,L,3.0,4.0,-1.0,League,League Two,Football League,4,4.0,19.0,3.0,5594.0,Saturday,Ian Dawes,15:00,,,,,,,,,,,,,,,,,,,,90,Prenton Park,Scott Tallis
 2023/24,2023-08-26,6,Notts County,A,1-2,L,1.0,2.0,-1.0,League,League Two,Football League,5,4.0,21.0,3.0,10174.0,Saturday,Ian Dawes,15:00,,,,,,,,,,,,,,,,,,,,90,Meadow Lane,Thomas Parsons
 2023/24,2023-08-29,7,Leicester City,H,0-2,L,0.0,2.0,-2.0,Cup,Carabao Cup,League Cup,2,,,,6610.0,Tuesday,Ian Dawes,19:45,2,,Second Round North,,North,,,,,,,,,,,,,,,90,Prenton Park,Ben Toner
 2023/24,2023-09-02,8,Wrexham,H,0-1,L,0.0,1.0,-1.0,League,League Two,Football League,6,4.0,21.0,3.0,10614.0,Saturday,Ian Dawes,12:30,,,,,,,,,,,,,,,,,,,,90,Prenton Park,Martin Woods
@@ -4878,7 +4878,6 @@ season,game_date,game_no,opposition,venue,score,outcome,goals_for,goals_against,
 2023/24,2023-10-28,20,Stockport County,A,0-2,L,0.0,2.0,-2.0,League,League Two,Football League,16,4.0,23.0,10.0,9735.0,Saturday,Nigel Adkins,15:00,,,,,,,,,,,,,,,,,,,,90,Edgeley Park,Christopher Pollard
 2023/24,2023-11-04,21,Stevenage,A,3-4,L,3.0,4.0,-1.0,Cup,The Emirates FA Cup,FA Cup,1,,,,2404.0,Saturday,Nigel Adkins,15:00,1,,First Round,,,,,,,,,,,,,,,,,90,Lamex Stadium,Neil Hair
 2023/24,2023-11-11,22,Forest Green Rovers,H,3-0,W,3.0,0.0,3.0,League,League Two,Football League,17,4.0,22.0,13.0,6461.0,Saturday,Nigel Adkins,15:00,,,,,,,,,,,,,,,,,,,,90,Prenton Park,Edward Duckworth
-2023/24,2023-11-14,23,Wigan Athletic,H,0-0,D,0.0,0.0,0.0,Cup,Papa John's Trophy,Associate Members' Cup,3,,,,1142,Tuesday,Nigel Adkins,19:00,,,,,,,L,5-6,5.0,6.0,,,,,,,pens,L,Lost 5-6 on pens,90,Prenton Park,Ross Joyce
-2023/24,2023-11-18,24,Sutton United,A,1-1,D,1.0,1.0,0.0,League,League Two,Football League,18,4.0,22.0,14.0,3548.0,Saturday,Nigel Adkins,15:00,,,,,,,,,,,,,,,,,,,,90,VBS Community Stadium,Lee Swabey
-2023/24,2023-11-25,25,Gillingham,H,3-1,W,3.0,1.0,2.0,League,League Two,Football League,19,4.0,22.0,17.0,5283.0,Saturday,Nigel Adkins,15:00,,,,,,,,,,,,,,,,,,,,90,Prenton Park,Marc Edwards
-2023/24,2023-11-28,26,Mansfield Town,A,2-2,D,2.0,2.0,0.0,League,League Two,Football League,20,4.0,22.0,18.0,6421.0,Tuesday,Nigel Adkins,19:45,,,,,,,,,,,,,,,,,,,,90,One Call Stadium,Matthew Corlett
+2023/24,2023-11-18,23,Sutton United,A,1-1,D,1.0,1.0,0.0,League,League Two,Football League,18,4.0,22.0,14.0,3548.0,Saturday,Nigel Adkins,15:00,,,,,,,,,,,,,,,,,,,,90,VBS Community Stadium,Lee Swabey
+2023/24,2023-11-25,24,Gillingham,H,3-1,W,3.0,1.0,2.0,League,League Two,Football League,19,4.0,22.0,17.0,5283.0,Saturday,Nigel Adkins,15:00,,,,,,,,,,,,,,,,,,,,90,Prenton Park,Marc Edwards
+2023/24,2023-11-28,25,Mansfield Town,A,2-2,D,2.0,2.0,0.0,League,League Two,Football League,20,4.0,22.0,18.0,6421.0,Tuesday,Nigel Adkins,19:45,,,,,,,,,,,,,,,,,,,,90,One Call Stadium,Matthew Corlett
