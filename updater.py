@@ -112,7 +112,7 @@ class fixtures:
 
 
 class league_table:
-    def __init__(self, date, pre_match=False, venue=None):
+    def __init__(self, date, pre_match=False, venue=None, table_source="11v11"):
         if pre_match is True:
             self.date = self.get_prematch_date(date)
         else:
@@ -121,21 +121,24 @@ class league_table:
 
         self.url = self.get_url()
 
-        r = requests.get(self.url, headers=get_headers())
+        if table_source == "11v11":
+            r = requests.get(self.url, headers=get_headers())
 
-        self.tables = pd.read_html(r.content, flavor="bs4")
+            self.tables = pd.read_html(r.content, flavor="bs4")
+        elif table_source == "bbc":
+            self.tables = pd.read_html(
+                "https://www.bbc.com/sport/football/league-two/table", flavor="bs4"
+            )
 
-        self.table = self.get_table()
+        self.table = self.get_table(table_source)
         self.pos = self.get_pos()
         self.pts = self.get_pts()
 
-    
     def get_prematch_date(self, date):
         prev_day = pd.to_datetime(date) - pd.Timedelta(days=1)
         prev_day = prev_day.strftime("%Y-%m-%d")
         return prev_day
-    
-    
+
     def get_url(self):
         year = self.date[:4]
         month = pd.to_datetime(self.date).month_name().lower()
@@ -150,9 +153,32 @@ class league_table:
             url += f"{self.venue}"
         return url
 
-    def get_table(self):
+    def clean_bbc_table(self, df):
+        df = df.rename(
+            columns={
+                "Position": "Pos",
+                "Played": "Pld",
+                "Won": "W",
+                "Drawn": "D",
+                "Lost": "L",
+                "Goals For": "GF",
+                "Goals Against": "GA",
+                "Goal Difference": "GD",
+                "Points": "Pts",
+            }
+        )
+
+        df = df[["Pos", "Team", "Pld", "W", "D", "L", "GF", "GA", "GD", "Pts"]]
+
+        return df
+
+    def get_table(self, table_source):
         table = self.tables[0]
-        table.Pos = table.Pos.index + 1
+
+        if table_source == "11v11":
+            table.Pos = table.Pos.index + 1
+        elif table_source == "bbc":
+            table = self.clean_bbc_table(table)
         return table
 
     def get_pos(self):
@@ -348,8 +374,8 @@ def get_game_type(data):
         return "Cup"
 
 
-def get_table(date):
-    lge_table = league_table(date)
+def get_table(date, table_source="11v11"):
+    lge_table = league_table(date, table_source)
     pos = lge_table.pos
     pts = lge_table.pts
     return pos, pts
@@ -501,7 +527,7 @@ def get_outcome_desc(pen_outcome, pen_score, agg_outcome, agg_score):
     return outcome_desc
 
 
-def get_match_df(date, data=None):
+def get_match_df(date, data=None, table_source="11v11"):
     if data:
         data = data
     else:
@@ -561,8 +587,8 @@ def get_match_df(date, data=None):
     stadium = data.stadium
     referee = data.referee
 
-    league_pos = get_table(date)[0] if game_type == "League" else None
-    pts = get_table(date)[1] if game_type == "League" else None
+    league_pos = get_table(date, table_source)[0] if game_type == "League" else None
+    pts = get_table(date, table_source)[1] if game_type == "League" else None
 
     match_record = [
         {
@@ -802,7 +828,11 @@ def archive_csv(df_name, old_df):
 
 
 def get_existing_dates():
-    dates = pd.read_csv("./data/results.csv", usecols = ["game_date"]).sort_values(by = "game_date", ascending = False)["game_date"].drop_duplicates()
+    dates = (
+        pd.read_csv("./data/results.csv", usecols=["game_date"])
+        .sort_values(by="game_date", ascending=False)["game_date"]
+        .drop_duplicates()
+    )
     return dates
 
 
@@ -816,10 +846,14 @@ def check_dates(dates):
             print("No game today.")
             dates = None
         elif not f.date_ready:
-            print(f"There is a game today against {f.today.opposition.values[0]}, but it is not ready for update. Please try again later.")
+            print(
+                f"There is a game today against {f.today.opposition.values[0]}, but it is not ready for update. Please try again later."
+            )
             dates = None
         else:
-            print(f"Update available for today's game against {f.today.opposition.values[0]}")
+            print(
+                f"Update available for today's game against {f.today.opposition.values[0]}"
+            )
             dates = [f.date_ready]
     return dates
 
@@ -855,7 +889,7 @@ def update_csv(df_name, old_df, updates):
         updated_df["weekday"] = updated_df.game_date.dt.day_name()
 
         updated_df.loc[updated_df.game_date == "2023-08-19", "attendance"] = 5594
-    
+
     updated_df = updated_df.sort_values(sort_cols[df_name]).reset_index(drop=True)
 
     updated_df.to_csv(f"./data/{df_name}.csv", index=False)
@@ -871,7 +905,7 @@ def update_df(df_name, updates):
         print(f"No updates required for {df_name.upper()}.")
     else:
         print(f"{len(updates)} possible updates found...")
-        
+
         updates = updates[~updates.game_date.isin(old_df.game_date)]
 
         n_updates = len(updates)
@@ -890,7 +924,7 @@ def print_msg(date):
     print(f"\n{border}\n* {msg} *\n{border}\n")
 
 
-def main(date_req=None):
+def main(date_req=None, table_source="11v11"):
     dates = check_dates(date_req)
     existing_dates = get_existing_dates()
 
@@ -902,7 +936,7 @@ def main(date_req=None):
                 print_msg(date)
 
                 match_data = bbc_api(date)
-                res_updates = get_match_df(date, match_data)
+                res_updates = get_match_df(date, match_data, table_source)
 
                 update_df("results", res_updates)
 
@@ -923,4 +957,4 @@ def main(date_req=None):
 
 date_type = "today"
 
-main(date_type)
+main(date_type, table_source="bbc")
