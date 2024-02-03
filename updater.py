@@ -112,7 +112,7 @@ class fixtures:
 
 
 class league_table:
-    def __init__(self, date, pre_match=False, venue=None, table_source="11v11"):
+    def __init__(self, date, table_source, pre_match=False, venue=None):
         if pre_match is True:
             self.date = self.get_prematch_date(date)
         else:
@@ -374,7 +374,7 @@ def get_game_type(data):
         return "Cup"
 
 
-def get_table(date, table_source="11v11"):
+def get_table(date, table_source):
     lge_table = league_table(date, table_source)
     pos = lge_table.pos
     pts = lge_table.pts
@@ -527,7 +527,7 @@ def get_outcome_desc(pen_outcome, pen_score, agg_outcome, agg_score):
     return outcome_desc
 
 
-def get_match_df(date, data=None, table_source="11v11"):
+def get_match_df(date, table_source, data=None):
     if data:
         data = data
     else:
@@ -924,7 +924,7 @@ def print_msg(date):
     print(f"\n{border}\n* {msg} *\n{border}\n")
 
 
-def main(date_req=None, table_source="11v11"):
+def main(table_source, date_req=None):
     dates = check_dates(date_req)
     existing_dates = get_existing_dates()
 
@@ -936,7 +936,8 @@ def main(date_req=None, table_source="11v11"):
                 print_msg(date)
 
                 match_data = bbc_api(date)
-                res_updates = get_match_df(date, match_data, table_source)
+
+                res_updates = get_match_df(date, table_source, match_data)
 
                 update_df("results", res_updates)
 
@@ -957,4 +958,4 @@ def main(date_req=None, table_source="11v11"):
 
 date_type = "today"
 
-main(date_type, table_source="bbc")
+main(table_source="bbc")
