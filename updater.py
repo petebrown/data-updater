@@ -695,9 +695,14 @@ class events_df:
             player_apps.append(player_app)
 
         apps_df = pd.DataFrame(player_apps)
-        apps_df = apps_df.query(
-            "player_name.isin(@self.subs.player_name) | role == 'starter'"
-        )
+        if self.subs.empty:
+            apps_df = apps_df.query(
+                "role == 'starter'"
+            )
+        else:
+            apps_df = apps_df.query(
+                "player_name.isin(@self.subs.player_name) | role == 'starter'"
+            )
         return apps_df
 
     def get_cards(self):
