@@ -4610,19 +4610,19 @@ game_date,shirt_no,player_name,on_for,off_for
 2007-09-04,2.0,Robbie Stockdale,,15.0
 2007-09-08,2.0,Robbie Stockdale,,6.0
 2007-09-08,25.0,Craig Curran,8.0,
-2007-09-08,6.0,Anthony Kay,2.0,
+2007-09-08,6.0,Antony Kay,2.0,
 2007-09-08,3.0,Carl Tremarco,25.0,
 2007-09-08,8.0,Calvin Zola,,25.0
 2007-09-08,25.0,Craig Curran,,3.0
 2007-09-14,9.0,Gareth Taylor,,25.0
 2007-09-14,12.0,Steven Jennings,,6.0
-2007-09-14,6.0,Anthony Kay,12.0,
+2007-09-14,6.0,Antony Kay,12.0,
 2007-09-14,25.0,Craig Curran,9.0,
 2007-09-29,21.0,Mike Jones,19.0,
 2007-09-29,19.0,Steve Davies,,21.0
 2007-10-02,4.0,Paul McLaren,,6.0
 2007-10-02,21.0,Mike Jones,,25.0
-2007-10-02,6.0,Anthony Kay,4.0,
+2007-10-02,6.0,Antony Kay,4.0,
 2007-10-02,25.0,Craig Curran,21.0,
 2007-10-06,9.0,Gareth Taylor,,8.0
 2007-10-06,25.0,Craig Curran,23.0,
@@ -4639,7 +4639,7 @@ game_date,shirt_no,player_name,on_for,off_for
 2007-10-26,10.0,Chris Greenacre,,25.0
 2007-10-26,25.0,Craig Curran,10.0,
 2007-11-06,12.0,Steven Jennings,6.0,
-2007-11-06,6.0,Anthony Kay,,12.0
+2007-11-06,6.0,Antony Kay,,12.0
 2007-11-06,21.0,Mike Jones,16.0,
 2007-11-06,16.0,Kevin Cooper,,21.0
 2007-11-06,25.0,Craig Curran,23.0,
@@ -4738,7 +4738,7 @@ game_date,shirt_no,player_name,on_for,off_for
 2008-03-24,9.0,Ian Moore,,25.0
 2008-03-24,12.0,Steven Jennings,,6.0
 2008-03-24,18.0,Jennison Myrie-Williams,,8.0
-2008-03-24,6.0,Anthony Kay,12.0,
+2008-03-24,6.0,Antony Kay,12.0,
 2008-03-24,25.0,Craig Curran,9.0,
 2008-03-28,8.0,Calvin Zola,18.0,
 2008-03-28,10.0,Chris Greenacre,,25.0
@@ -4746,7 +4746,7 @@ game_date,shirt_no,player_name,on_for,off_for
 2008-03-28,25.0,Craig Curran,10.0,
 2008-04-05,18.0,Jennison Myrie-Williams,,6.0
 2008-04-05,10.0,Chris Greenacre,,8.0
-2008-04-05,6.0,Anthony Kay,18.0,
+2008-04-05,6.0,Antony Kay,18.0,
 2008-04-05,12.0,Steven Jennings,,23.0
 2008-04-05,23.0,Chris Shuker,12.0,
 2008-04-05,8.0,Calvin Zola,10.0,
@@ -4780,7 +4780,7 @@ game_date,shirt_no,player_name,on_for,off_for
 2008-08-30,10.0,Chris Greenacre,25.0,
 2008-09-02,19.0,Charlie Barnett,6.0,
 2008-09-02,10.0,Chris Greenacre,16.0,
-2008-09-02,6.0,Anthony Kay,,19.0
+2008-09-02,6.0,Antony Kay,,19.0
 2008-09-02,16.0,Edrissa Sonko,,10.0
 2008-09-02,9.0,Ian Moore,23.0,
 2008-09-02,23.0,Chris Shuker,,9.0
@@ -4851,7 +4851,7 @@ game_date,shirt_no,player_name,on_for,off_for
 2008-12-28,18.0,Aaron Cresswell,16.0,
 2008-12-28,16.0,Edrissa Sonko,,18.0
 2009-01-24,19.0,Charlie Barnett,,21.0
-2009-01-24,6.0,Anthony Kay,,13.0
+2009-01-24,6.0,Antony Kay,,13.0
 2009-01-24,21.0,Josh Macauley,19.0,
 2009-01-24,13.0,Gareth Edds,6.0,
 2009-01-27,19.0,Charlie Barnett,,7.0
@@ -4911,7 +4911,7 @@ game_date,shirt_no,player_name,on_for,off_for
 2009-05-02,18.0,Aaron Cresswell,19.0,
 2009-05-02,19.0,Charlie Barnett,,18.0
 2009-05-02,22.0,Ash Taylor,6.0,
-2009-05-02,6.0,Anthony Kay,,22.0
+2009-05-02,6.0,Antony Kay,,22.0
 2009-08-08,10.0,Alan Mahon,,20.0
 2009-08-08,25.0,Craig Curran,,14.0
 2009-08-08,14.0,Terry Gornell,25.0,
