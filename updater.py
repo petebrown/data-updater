@@ -390,6 +390,7 @@ def get_generic_comp(competition):
         "League Two": "Football League",
         "National League": "Non-League",
         "Papa John's Trophy": "Associate Members' Cup",
+        "Bristol Street Motors Trophy": "Associate Members' Cup",
         "The Emirates FA Cup": "FA Cup",
     }
     return generic_comps[competition]
@@ -960,7 +961,5 @@ def main(table_source, date_req=None):
                     updates = getattr(events, df)
                     update_df(df, updates)
 
-
-date_type = "today"
 
 main(table_source="bbc")
