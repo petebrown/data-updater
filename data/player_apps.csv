@@ -12374,6 +12374,7 @@ game_date,player_name,shirt_no,role
 1953-04-28,Cyril Done,9.0,starter
 1953-04-28,Wiliam Jackson,10.0,starter
 1953-04-28,Lloyd Iceton,11.0,starter
+1953-08-22,George Payne,1.0,starter
 1953-08-22,Bill Lamont,2.0,starter
 1953-08-22,Percy Steele,3.0,starter
 1953-08-22,Ray Williams,4.0,starter
@@ -31384,10 +31385,10 @@ game_date,player_name,shirt_no,role
 1986-03-07,Gary Williams,6.0,starter
 1986-03-07,Dave Miller,7.0,starter
 1986-03-07,Ray Train,8.0,starter
+1986-03-07,Billy Ashcroft,9.0,starter
 1986-03-07,Ian Muir,10.0,starter
 1986-03-07,Doug Anderson,11.0,starter
 1986-03-07,Frank Worthington,12.0,sub
-1986-03-07,Billy Ashcroft,14.0,sub
 1986-03-11,Nigel Adkins,1.0,starter
 1986-03-11,Steve Mungall,2.0,starter
 1986-03-11,David Burgess,3.0,starter
@@ -31400,6 +31401,7 @@ game_date,player_name,shirt_no,role
 1986-03-11,Ian Muir,10.0,starter
 1986-03-11,Doug Anderson,11.0,starter
 1986-03-11,Frank Worthington,12.0,sub
+1986-03-07,Billy Ashcroft,14.0,sub
 1986-03-15,Nigel Adkins,1.0,starter
 1986-03-15,Steve Mungall,2.0,starter
 1986-03-15,David Burgess,3.0,starter
@@ -31449,6 +31451,7 @@ game_date,player_name,shirt_no,role
 1986-03-25,Johnny Morrissey,12.0,sub
 1986-03-29,Nigel Adkins,1.0,starter
 1986-03-29,Steve Mungall,2.0,starter
+1986-03-29,David Burgess,3.0,starter
 1986-03-29,Billy Rodaway,4.0,starter
 1986-03-29,Billy Ashcroft,5.0,starter
 1986-03-29,Gary Williams,6.0,starter
@@ -52539,7 +52542,6 @@ game_date,player_name,shirt_no,role
 2016-08-09,Steven Jennings,4.0,starter
 2016-08-09,Steve McNulty,5.0,starter
 2016-08-09,Michael Ihiekwe,6.0,starter
-2016-08-09,Adam Mekki,7.0,starter
 2016-08-09,Jay Harris,8.0,starter
 2016-08-09,Andy Cook,9.0,starter
 2016-08-09,James Norwood,10.0,starter
