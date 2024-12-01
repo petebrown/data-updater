@@ -20656,7 +20656,7 @@ game_date,player_name,shirt_no,role
 1968-08-31,John MacNamee,11.0,starter
 1968-08-31,Roy Sinclair,12.0,sub
 1968-09-03,Jim Cumbes,1.0,starter
-1968-09-03,Teddie Robertson,2.0,starter
+1968-09-03,Teddie Robertson,3.0,starter
 1968-09-03,Ray Pointon,2.0,starter
 1968-09-03,Gerry Casey,4.0,starter
 1968-09-03,Derek Smith,5.0,starter
@@ -20668,8 +20668,8 @@ game_date,player_name,shirt_no,role
 1968-09-03,John MacNamee,11.0,starter
 1968-09-03,Roy Sinclair,12.0,sub
 1968-09-06,Jim Cumbes,1.0,starter
-1968-09-06,Teddie Robertson,2.0,starter
 1968-09-06,Ray Pointon,2.0,starter
+1968-09-06,Teddie Robertson,3.0,starter
 1968-09-06,Gerry Casey,4.0,starter
 1968-09-06,Derek Smith,5.0,starter
 1968-09-06,Ray Mathias,6.0,starter
@@ -20681,7 +20681,7 @@ game_date,player_name,shirt_no,role
 1968-09-06,Roy Sinclair,12.0,sub
 1968-09-09,Jim Cumbes,1.0,starter
 1968-09-09,Ray Pointon,2.0,starter
-1968-09-09,Teddie Robertson,2.0,starter
+1968-09-09,Teddie Robertson,3.0,starter
 1968-09-09,Alan King,4.0,starter
 1968-09-09,Derek Smith,5.0,starter
 1968-09-09,Gerry Casey,6.0,starter
@@ -20692,7 +20692,7 @@ game_date,player_name,shirt_no,role
 1968-09-09,John MacNamee,11.0,starter
 1968-09-14,Jim Cumbes,1.0,starter
 1968-09-14,Ray Pointon,2.0,starter
-1968-09-14,Teddie Robertson,2.0,starter
+1968-09-14,Teddie Robertson,3.0,starter
 1968-09-14,Gerry Casey,4.0,starter
 1968-09-14,Derek Smith,5.0,starter
 1968-09-14,Alan King,6.0,starter
@@ -52857,7 +52857,7 @@ game_date,player_name,shirt_no,role
 2016-12-03,Adam Dawson,21.0,sub
 2016-12-10,Scott Davies,1.0,starter
 2016-12-10,Lee Vaughan,2.0,starter
-2016-12-10,Steve McNulty,4.0,starter
+2016-12-10,Steve McNulty,5.0,starter
 2016-12-10,Michael Ihiekwe,6.0,starter
 2016-12-10,Jay Harris,8.0,starter
 2016-12-10,Andy Cook,9.0,starter
