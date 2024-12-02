@@ -3278,9 +3278,9 @@ game_date,shirt_no,player_name,on_for,off_for
 2000-09-09,11.0,Stuart Barlow,10.0,
 2000-09-12,26.0,Sean Flynn,,12.0
 2000-09-12,8.0,Nick Henry,,11.0
-2000-09-12,14.0,Andy Parkinson,10.0,
+2000-09-12,9.0,Andy Parkinson,10.0,
 2000-09-12,12.0,Alan Morgan,26.0,
-2000-09-12,10.0,Scott Taylor,,14.0
+2000-09-12,10.0,Scott Taylor,,9.0
 2000-09-12,11.0,Stuart Barlow,8.0,
 2000-09-16,18.0,Richard Hinds,,14.0
 2000-09-16,14.0,Reuben Hazell,18.0,
@@ -3778,10 +3778,10 @@ game_date,shirt_no,player_name,on_for,off_for
 2003-02-08,7.0,Jason Price,25.0,
 2003-02-22,25.0,Shane Nicholson,,16.0
 2003-02-22,16.0,Alex Hay,25.0,
-2003-03-04,16.0,Alex Hay,,11.0
+2003-03-04,16.0,Alex Hay,,25.0
 2003-03-04,12.0,Andy Parkinson,15.0,
 2003-03-04,7.0,Jason Price,,20.0
-2003-03-04,11.0,Shane Nicholson,16.0,
+2003-03-04,25.0,Shane Nicholson,16.0,
 2003-03-04,15.0,Iain Hume,,12.0
 2003-03-04,20.0,Ryan Taylor,7.0,
 2003-03-14,20.0,Ryan Taylor,7.0,
@@ -4298,10 +4298,10 @@ game_date,shirt_no,player_name,on_for,off_for
 2005-10-01,7.0,Nicky Summerbee,,11.0
 2005-10-15,9.0,Calvin Zola,,16.0
 2005-10-15,16.0,Theodore Whitmore,9.0,
-2005-10-18,10.0,Chris Greenacre,,12.0
+2005-10-18,10.0,Chris Greenacre,,28.0
 2005-10-18,11.0,Sam Aiston,,9.0
 2005-10-18,9.0,Calvin Zola,11.0,
-2005-10-18,12.0,Steve Davies,10.0,
+2005-10-18,28.0,Steve Davies,10.0,
 2005-10-22,19.0,Stephen O'Leary,8.0,
 2005-10-22,8.0,Mark Rankine,,19.0
 2005-10-29,28.0,Steve Davies,,15.0
