@@ -1,4 +1,6 @@
 game_date,player_name,min_so
+1967-08-19,Gerry Casey,49.0
+1984-05-21,Dave Higgins,89.0
 1986-09-27,Andy Thorpe,90.0
 1986-10-11,Frank Worthington,77.0
 1987-02-14,Simon Farnworth,87.0
@@ -34,6 +36,7 @@ game_date,player_name,min_so
 1994-05-18,Eric Nixon,90.0
 1995-02-11,Shaun Garnett,40.0
 1995-04-30,Dave Higgins,45.0
+1995-05-17,Tony Thomas,84.0
 1995-09-09,Shaun Teale,57.0
 1996-04-27,Dave Higgins,37.0
 1996-08-17,Alan Rogers,69.0
@@ -117,8 +120,8 @@ game_date,player_name,min_so
 2010-10-30,Zoumana Bakayogo,70.0
 2010-11-20,Joss Labadie,75.0
 2011-01-01,Marlon Broomes,24.0
-2011-08-16,David Raven,90.0
 2011-08-16,David Buchanan,90.0
+2011-08-16,David Raven,90.0
 2011-10-29,Jose Baxter,63.0
 2012-04-21,Owain Fon Williams,72.0
 2013-02-02,Jean-Louis Akpa Akpro,36.0
@@ -175,3 +178,4 @@ game_date,player_name,min_so
 2023-10-14,Tom Davies,90.0
 2023-10-28,Harvey Saunders,48.0
 2023-11-28,Jordan Turnbull,90.0
+2024-12-10,Zak Bradshaw,54.0
