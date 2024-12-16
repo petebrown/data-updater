@@ -1687,7 +1687,7 @@ game_date,player_name,min_off,min_on
 2001-02-03,Graham Allen,81.0,
 2001-02-03,Iain Hume,,81.0
 2001-02-10,Sean Flynn,60.0,
-2001-02-10,Perry Taylor,,60.0
+2001-02-10,Scott Taylor,,60.0
 2001-02-10,Paul Rideout,24.0,
 2001-02-10,Iain Hume,,24.0
 2001-02-13,Iain Hume,,76.0
@@ -5299,8 +5299,8 @@ game_date,player_name,min_off,min_on
 2017-03-11,Andy Mangan,,70.0
 2017-03-11,Connor Jennings,,46.0
 2017-03-11,Lee Vaughan,,54.0
-2017-03-11,James Norwood,19.0,
-2017-03-11,Steven Jennings,11.0,
+2017-03-11,James Norwood,70.0,
+2017-03-11,Steven Jennings,46.0,
 2017-03-14,James Norwood,,66.0
 2017-03-14,Andy Cook,,75.0
 2017-03-14,Andy Mangan,66.0,
@@ -5671,12 +5671,6 @@ game_date,player_name,min_off,min_on
 2018-10-09,Adam Buxton,68.0,
 2018-10-12,Jonny Smith,69.0,
 2018-10-12,Larnell Cole,,69.0
-2018-10-20,Paul Mullin,,61.0
-2018-10-20,Jonny Smith,66.0,
-2018-10-20,Jay Harris,,89.0
-2018-10-20,Harvey Gilmour,61.0,
-2018-10-20,Luke McCullough,89.0,
-2018-10-20,Larnell Cole,,66.0
 2018-10-20,Harvey Gilmour,60.0,
 2018-10-20,Jay Harris,,90.0
 2018-10-20,Jonny Smith,65.0,
