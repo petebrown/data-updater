@@ -1,104 +1,203 @@
-game_date,goalscorers
-2023-09-09,"J. Taylor (11'), B. Ihionvien (87')"
-2023-09-16,"R. Darcy (61'), N. Tsaroulla (68'), K. Lolos (90+6')"
-2023-09-30,"A. Little (21'), Ali Al-Hamadi (32', 62', 88')"
-2023-10-03,A. Cook (55')
-2023-10-07,"D. Rose (27'), R. Pyke (44')"
-2023-10-10,S. Thomas (9')
-2023-10-14,"M. Demetriou (11'), C. Long (52')"
-2023-10-20,"H. Biggins (27'), M. Faal (57')"
-2023-10-24,J. Turnbull (72' o.g.)
-2023-10-28,"I. Olaofe (5'), A. Sarcevic (54')"
-2023-11-04,"J. Roberts (3'), J. Reid (58' pen, 90+10'), K. Hemmings (81')"
-2023-11-18,L. John (88')
-2023-11-25,C. Mahoney (90+1')
-2023-11-28,"R. Oates (37'), W. Swan (79')"
-2023-12-09,W. Evans (22')
-2023-12-16,J. Matt (64')
-2023-12-23,D. Kemp (22')
-2023-12-26,M. Lund (55')
-2024-01-01,"A. Nemane (24'), M. Langstaff (29')"
-2024-01-06,D. Campbell (80')
-2024-01-13,"A. Gilbey (9'), E. Harrison (90+6')"
-2024-01-20,"S. McGurk (23'), R. Hepburn-Murphy (35', 64')"
-2024-01-27,D. Tharme (39')
-2024-02-10,"J. Ironside (15'), H. Adelakun (64')"
-2024-02-13,"C. Brown (14'), J. Slew (82'), J. Davenport (90+5')"
-2024-02-24,C. McCann (45+1')
-2024-03-09,C. Masterson (84')
-2024-03-12,W. Swan (39')
-2024-03-23,"J. Kelly (2'), J. Williams (10'), D. Orsi (79')"
-2024-03-29,"C. Kavanagh (64'), B. Pointon (69')"
-2024-04-01,A. Smith (8')
-2024-04-06,"J. Matt (45+2'), T. Allen (57'), B. Comley (68')"
-2024-04-13,W. Evans (20')
-2024-04-20,"J. Kelly (56', 90+5')"
-2024-04-27,"L. Shipley (4'), J. Nolan (51' pen, 82' pen), A. Henderson (53')"
-2024-08-20,"Beto (86', 90+2'), M. Sherif (90+5')"
-2024-08-27,"J. Ayew (38'), S. Mavididi (51' pen), W. Ndidi (71'), H. Winks (90')"
-2024-08-31,A. Davies (7')
-2024-09-14,"A. Little (48'), J. Clarke (82', 89')"
-2024-09-21,"L. Taylor (7', 38'), S. Tovide (78')"
-2024-10-01,C. Merrie (54' o.g.)
-2024-10-05,J. White (23')
-2024-10-08,A. Popoola (90')
-2024-10-12,"A. Cook (23', 72')"
-2024-10-19,L. Dennis (90+6')
-2024-10-22,J. Obikwu (59')
-2024-10-26,"S. Tracey (39', 54'), J. Tabiner (84')"
-2024-11-02,"J. Norwood (39'), J. Uchegbulam (61')"
-2024-11-09,K. Hudlin (84')
-2024-11-22,J. Colwill (89')
-2024-11-26,"M. Stevens (37'), Omar Bugiel (53')"
-2024-12-03,"B. Tollitt (12'), A. Lewis (50')"
-2024-12-07,"R. Colclough (29'), A. Dobra (44'), K. Drummond (86')"
-2024-12-10,"J. Clarke-Harris (24' pen), Z. Jules (48'), H. Odoffin (90')"
-2024-12-14,J. Daly (14')
-2024-12-21,"J. Olowu (38'), P. Kelly (66'), K. Hurst (77')"
-2024-12-29,J. Turnbull (11' o.g.)
-2025-01-01,"Y. Songo'o (72'), J. Stott (84')"
-2025-01-11,"J. Matt (15', 49'), R. Stirk (22'), J. Jellis (72'), N. Lowe (80')"
-2025-01-18,"J. Neufville (48'), M. Stevens (81' pen)"
-2025-01-25,J. Turnbull (44' o.g.)
-2025-01-28,"P. Glatzel (87'), H. Smith (90'), K. Tshimanga (90+5' pen)"
-2025-02-01,"L. Taylor (9' pen, 33'), O. Edwards (63')"
-2025-02-08,"H. Adelakun (51', 61')"
-2025-02-15,D. Orsi (32')
-2025-02-22,"C. Whitaker (80'), A. Jatta (83')"
-2025-02-25,S. Whalley (49')
-2025-03-01,R. Curtis (29')
-2025-03-04,D. Rose (68' pen)
-2025-03-08,M. Cheek (27')
-2025-04-01,"E. Taylor (33'), T. Cursons (58'), B. Fox (75')"
-2025-04-12,"B. Woods (1'), T. Walton (24'), J. Woods (42')"
-2025-04-18,"L. Molyneux (23', 51' pen, 77')"
-2025-05-03,S. McLoughlin (23')
-2025-08-02,K. Lisbie (87')
-2025-08-16,J. Gbode (90+2')
-2025-08-19,B. Whitfield (10')
-2025-08-30,"M. Dennis (49'), K. Gordon (62')"
-2025-09-06,"L. Garbutt (56' pen), C. Stockton (81'), O. Ashley (86')"
-2025-09-09,"F. Smith (2'), K. Thompson (88')"
-2025-09-13,C. Baker-Richardson (87')
-2025-09-20,"E. Weir (9', 45+5'), D. Kanu (61'), A. Adomah (90+1')"
-2025-10-04,"K. Cameron (16'), N. Kabamba (37'), M. Cheek (49' pen)"
-2025-10-07,E. Newby (8')
-2025-10-11,"L. Ndlovu (26'), A. Senior (40')"
-2025-10-18,A. Chang (85')
-2025-10-25,O. Patrick (12' o.g.)
-2025-10-28,S. Whalley (16')
-2025-11-01,"J. Diamond (55'), O. Norwood (74'), N. Lowe (90+1')"
-2025-11-08,"O. Palmer (74'), F. Munroe (90+3')"
-2025-11-11,S. Banks (18')
-2025-11-15,"J. Thomas (34'), J. Martin (77')"
-2025-11-22,"J. Mellish (78'), K. Thompson-Sommers (82')"
-2025-11-27,D. Burns (67')
-2025-12-13,"M. Sanders (17', 45+2'), E. Tezgel (59' pen), T. O'Reilly (71')"
-2025-12-20,"M. Mellon (31', 47', 61')"
-2025-12-29,"B. Jackson (8'), C. Raglan (18'), I. Fletcher (32')"
-2026-01-10,"M. Cheek (2', 57')"
-2026-01-17,"P. Farquharson (38'), D. Kanu (45'), J. Matt (65')"
-2026-01-24,"S. Lavery (58'), K. Watts (67', 77'), B. Knight (90+6')"
-2026-01-27,M. Shelton (90+6')
-2026-01-31,"J. Grant (68'), K. N’Mai (75')"
-2026-02-07,"R. Hale (25', 65')"
+game_date,player_name,goal_no,pl_surname,pl_forename,goal_min,added_time,is_own_goal,is_penalty
+2023-09-09,J. Taylor,1,Taylor,J.,11,,0,0
+2023-09-09,B. Ihionvien,1,Ihionvien,B.,87,,0,0
+2023-09-16,R. Darcy,1,Darcy,R.,61,,0,0
+2023-09-16,N. Tsaroulla,1,Tsaroulla,N.,68,,0,0
+2023-09-16,K. Lolos,1,Lolos,K.,90,6.0,0,0
+2023-09-30,A. Little,1,Little,A.,21,,0,0
+2023-09-30,Ali Al-Hamadi,1,Al-Hamadi,Ali,32,,0,0
+2023-09-30,Ali Al-Hamadi,2,Al-Hamadi,Ali,62,,0,0
+2023-09-30,Ali Al-Hamadi,3,Al-Hamadi,Ali,88,,0,0
+2023-10-03,A. Cook,1,Cook,A.,55,,0,0
+2023-10-07,D. Rose,1,Rose,D.,27,,0,0
+2023-10-07,R. Pyke,1,Pyke,R.,44,,0,0
+2023-10-10,S. Thomas,1,Thomas,S.,9,,0,0
+2023-10-14,M. Demetriou,1,Demetriou,M.,11,,0,0
+2023-10-14,C. Long,1,Long,C.,52,,0,0
+2023-10-20,H. Biggins,1,Biggins,H.,27,,0,0
+2023-10-20,M. Faal,1,Faal,M.,57,,0,0
+2023-10-24,J. Turnbull,1,Turnbull,J.,72,,0,0
+2023-10-28,I. Olaofe,1,Olaofe,I.,5,,0,0
+2023-10-28,A. Sarcevic,1,Sarcevic,A.,54,,0,0
+2023-11-04,J. Roberts,1,Roberts,J.,3,,0,0
+2023-11-04,J. Reid,1,Reid,J.,58,,0,1
+2023-11-04,K. Hemmings,1,Hemmings,K.,81,,0,0
+2023-11-04,J. Reid,2,Reid,J.,90,10.0,0,0
+2023-11-18,L. John,1,John,L.,88,,0,0
+2023-11-25,C. Mahoney,1,Mahoney,C.,90,1.0,0,0
+2023-11-28,R. Oates,1,Oates,R.,37,,0,0
+2023-11-28,W. Swan,1,Swan,W.,79,,0,0
+2023-12-09,W. Evans,1,Evans,W.,22,,0,0
+2023-12-16,J. Matt,1,Matt,J.,64,,0,0
+2023-12-23,D. Kemp,1,Kemp,D.,22,,0,0
+2023-12-26,M. Lund,1,Lund,M.,55,,0,0
+2024-01-01,A. Nemane,1,Nemane,A.,24,,0,0
+2024-01-01,M. Langstaff,1,Langstaff,M.,29,,0,0
+2024-01-06,D. Campbell,1,Campbell,D.,80,,0,0
+2024-01-13,A. Gilbey,1,Gilbey,A.,9,,0,0
+2024-01-13,E. Harrison,1,Harrison,E.,90,6.0,0,0
+2024-01-20,S. McGurk,1,McGurk,S.,23,,0,0
+2024-01-20,R. Hepburn-Murphy,1,Hepburn-Murphy,R.,35,,0,0
+2024-01-20,R. Hepburn-Murphy,2,Hepburn-Murphy,R.,64,,0,0
+2024-01-27,D. Tharme,1,Tharme,D.,39,,0,0
+2024-02-10,J. Ironside,1,Ironside,J.,15,,0,0
+2024-02-10,H. Adelakun,1,Adelakun,H.,64,,0,0
+2024-02-13,C. Brown,1,Brown,C.,14,,0,0
+2024-02-13,J. Slew,1,Slew,J.,82,,0,0
+2024-02-13,J. Davenport,1,Davenport,J.,90,5.0,0,0
+2024-02-24,C. McCann,1,McCann,C.,45,1.0,0,0
+2024-03-09,C. Masterson,1,Masterson,C.,84,,0,0
+2024-03-12,W. Swan,1,Swan,W.,39,,0,0
+2024-03-23,J. Kelly,1,Kelly,J.,2,,0,0
+2024-03-23,J. Williams,1,Williams,J.,10,,0,0
+2024-03-23,D. Orsi,1,Orsi,D.,79,,0,0
+2024-03-29,C. Kavanagh,1,Kavanagh,C.,64,,0,0
+2024-03-29,B. Pointon,1,Pointon,B.,69,,0,0
+2024-04-01,A. Smith,1,Smith,A.,8,,0,0
+2024-04-06,J. Matt,1,Matt,J.,45,2.0,0,0
+2024-04-06,T. Allen,1,Allen,T.,57,,0,0
+2024-04-06,B. Comley,1,Comley,B.,68,,0,0
+2024-04-13,W. Evans,1,Evans,W.,20,,0,0
+2024-04-20,J. Kelly,1,Kelly,J.,56,,0,0
+2024-04-20,J. Kelly,2,Kelly,J.,90,5.0,0,0
+2024-04-27,L. Shipley,1,Shipley,L.,4,,0,0
+2024-04-27,J. Nolan,1,Nolan,J.,51,,0,1
+2024-04-27,A. Henderson,1,Henderson,A.,53,,0,0
+2024-04-27,J. Nolan,2,Nolan,J.,82,,0,1
+2024-08-20,Beto,1,Beto,,86,,0,0
+2024-08-20,Beto,2,Beto,,90,2.0,0,0
+2024-08-20,M. Sherif,1,Sherif,M.,90,5.0,0,0
+2024-08-27,J. Ayew,1,Ayew,J.,38,,0,0
+2024-08-27,S. Mavididi,1,Mavididi,S.,51,,0,1
+2024-08-27,W. Ndidi,1,Ndidi,W.,71,,0,0
+2024-08-27,H. Winks,1,Winks,H.,90,,0,0
+2024-08-31,A. Davies,1,Davies,A.,7,,0,0
+2024-09-14,A. Little,1,Little,A.,48,,0,0
+2024-09-14,J. Clarke,1,Clarke,J.,82,,0,0
+2024-09-14,J. Clarke,2,Clarke,J.,89,,0,0
+2024-09-21,L. Taylor,1,Taylor,L.,7,,0,0
+2024-09-21,L. Taylor,2,Taylor,L.,38,,0,0
+2024-09-21,S. Tovide,1,Tovide,S.,78,,0,0
+2024-10-01,C. Merrie,1,Merrie,C.,54,,0,0
+2024-10-05,J. White,1,White,J.,23,,0,0
+2024-10-08,A. Popoola,1,Popoola,A.,90,,0,0
+2024-10-12,A. Cook,1,Cook,A.,23,,0,0
+2024-10-12,A. Cook,2,Cook,A.,72,,0,0
+2024-10-19,L. Dennis,1,Dennis,L.,90,6.0,0,0
+2024-10-22,J. Obikwu,1,Obikwu,J.,59,,0,0
+2024-10-26,S. Tracey,1,Tracey,S.,39,,0,0
+2024-10-26,S. Tracey,2,Tracey,S.,54,,0,0
+2024-10-26,J. Tabiner,1,Tabiner,J.,84,,0,0
+2024-11-02,J. Norwood,1,Norwood,J.,39,,0,0
+2024-11-02,J. Uchegbulam,1,Uchegbulam,J.,61,,0,0
+2024-11-09,K. Hudlin,1,Hudlin,K.,84,,0,0
+2024-11-22,J. Colwill,1,Colwill,J.,89,,0,0
+2024-11-26,M. Stevens,1,Stevens,M.,37,,0,0
+2024-11-26,Omar Bugiel,1,Bugiel,Omar,53,,0,0
+2024-12-03,B. Tollitt,1,Tollitt,B.,12,,0,0
+2024-12-03,A. Lewis,1,Lewis,A.,50,,0,0
+2024-12-07,R. Colclough,1,Colclough,R.,29,,0,0
+2024-12-07,A. Dobra,1,Dobra,A.,44,,0,0
+2024-12-07,K. Drummond,1,Drummond,K.,86,,0,0
+2024-12-10,J. Clarke-Harris,1,Clarke-Harris,J.,24,,0,1
+2024-12-10,Z. Jules,1,Jules,Z.,48,,0,0
+2024-12-10,H. Odoffin,1,Odoffin,H.,90,,0,0
+2024-12-14,J. Daly,1,Daly,J.,14,,0,0
+2024-12-21,J. Olowu,1,Olowu,J.,38,,0,0
+2024-12-21,P. Kelly,1,Kelly,P.,66,,0,0
+2024-12-21,K. Hurst,1,Hurst,K.,77,,0,0
+2024-12-29,J. Turnbull,1,Turnbull,J.,11,,0,0
+2025-01-01,Y. Songo'o,1,Songo'o,Y.,72,,0,0
+2025-01-01,J. Stott,1,Stott,J.,84,,0,0
+2025-01-11,J. Matt,1,Matt,J.,15,,0,0
+2025-01-11,R. Stirk,1,Stirk,R.,22,,0,0
+2025-01-11,J. Matt,2,Matt,J.,49,,0,0
+2025-01-11,J. Jellis,1,Jellis,J.,72,,0,0
+2025-01-11,N. Lowe,1,Lowe,N.,80,,0,0
+2025-01-18,J. Neufville,1,Neufville,J.,48,,0,0
+2025-01-18,M. Stevens,1,Stevens,M.,81,,0,1
+2025-01-25,J. Turnbull,1,Turnbull,J.,44,,0,0
+2025-01-28,P. Glatzel,1,Glatzel,P.,87,,0,0
+2025-01-28,K. Tshimanga,1,Tshimanga,K.,90,5.0,0,1
+2025-01-28,H. Smith,1,Smith,H.,90,,0,0
+2025-02-01,L. Taylor,1,Taylor,L.,9,,0,1
+2025-02-01,L. Taylor,2,Taylor,L.,33,,0,0
+2025-02-01,O. Edwards,1,Edwards,O.,63,,0,0
+2025-02-08,H. Adelakun,1,Adelakun,H.,51,,0,0
+2025-02-08,H. Adelakun,2,Adelakun,H.,61,,0,0
+2025-02-15,D. Orsi,1,Orsi,D.,32,,0,0
+2025-02-22,C. Whitaker,1,Whitaker,C.,80,,0,0
+2025-02-22,A. Jatta,1,Jatta,A.,83,,0,0
+2025-02-25,S. Whalley,1,Whalley,S.,49,,0,0
+2025-03-01,R. Curtis,1,Curtis,R.,29,,0,0
+2025-03-04,D. Rose,1,Rose,D.,68,,0,1
+2025-03-08,M. Cheek,1,Cheek,M.,27,,0,0
+2025-04-01,E. Taylor,1,Taylor,E.,33,,0,0
+2025-04-01,T. Cursons,1,Cursons,T.,58,,0,0
+2025-04-01,B. Fox,1,Fox,B.,75,,0,0
+2025-04-12,B. Woods,1,Woods,B.,1,,0,0
+2025-04-12,T. Walton,1,Walton,T.,24,,0,0
+2025-04-12,J. Woods,1,Woods,J.,42,,0,0
+2025-04-18,L. Molyneux,1,Molyneux,L.,23,,0,0
+2025-04-18,L. Molyneux,2,Molyneux,L.,51,,0,1
+2025-04-18,L. Molyneux,3,Molyneux,L.,77,,0,0
+2025-05-03,S. McLoughlin,1,McLoughlin,S.,23,,0,0
+2025-08-02,K. Lisbie,1,Lisbie,K.,87,,0,0
+2025-08-16,J. Gbode,1,Gbode,J.,90,2.0,0,0
+2025-08-19,B. Whitfield,1,Whitfield,B.,10,,0,0
+2025-08-30,M. Dennis,1,Dennis,M.,49,,0,0
+2025-08-30,K. Gordon,1,Gordon,K.,62,,0,0
+2025-09-06,L. Garbutt,1,Garbutt,L.,56,,0,1
+2025-09-06,C. Stockton,1,Stockton,C.,81,,0,0
+2025-09-06,O. Ashley,1,Ashley,O.,86,,0,0
+2025-09-09,F. Smith,1,Smith,F.,2,,0,0
+2025-09-09,K. Thompson,1,Thompson,K.,88,,0,0
+2025-09-13,C. Baker-Richardson,1,Baker-Richardson,C.,87,,0,0
+2025-09-20,E. Weir,1,Weir,E.,9,,0,0
+2025-09-20,E. Weir,2,Weir,E.,45,5.0,0,0
+2025-09-20,D. Kanu,1,Kanu,D.,61,,0,0
+2025-09-20,A. Adomah,1,Adomah,A.,90,1.0,0,0
+2025-10-04,K. Cameron,1,Cameron,K.,16,,0,0
+2025-10-04,N. Kabamba,1,Kabamba,N.,37,,0,0
+2025-10-04,M. Cheek,1,Cheek,M.,49,,0,1
+2025-10-07,E. Newby,1,Newby,E.,8,,0,0
+2025-10-11,L. Ndlovu,1,Ndlovu,L.,26,,0,0
+2025-10-11,A. Senior,1,Senior,A.,40,,0,0
+2025-10-18,A. Chang,1,Chang,A.,85,,0,0
+2025-10-25,O. Patrick,1,Patrick,O.,12,,0,0
+2025-10-28,S. Whalley,1,Whalley,S.,16,,0,0
+2025-11-01,J. Diamond,1,Diamond,J.,55,,0,0
+2025-11-01,O. Norwood,1,Norwood,O.,74,,0,0
+2025-11-01,N. Lowe,1,Lowe,N.,90,1.0,0,0
+2025-11-08,O. Palmer,1,Palmer,O.,74,,0,0
+2025-11-08,F. Munroe,1,Munroe,F.,90,3.0,0,0
+2025-11-11,S. Banks,1,Banks,S.,18,,0,0
+2025-11-15,J. Thomas,1,Thomas,J.,34,,0,0
+2025-11-15,J. Martin,1,Martin,J.,77,,0,0
+2025-11-22,J. Mellish,1,Mellish,J.,78,,0,0
+2025-11-22,K. Thompson-Sommers,1,Thompson-Sommers,K.,82,,0,0
+2025-11-27,D. Burns,1,Burns,D.,67,,0,0
+2025-12-13,M. Sanders,1,Sanders,M.,17,,0,0
+2025-12-13,M. Sanders,2,Sanders,M.,45,2.0,0,0
+2025-12-13,E. Tezgel,1,Tezgel,E.,59,,0,1
+2025-12-13,T. O'Reilly,1,O'Reilly,T.,71,,0,0
+2025-12-20,M. Mellon,1,Mellon,M.,31,,0,0
+2025-12-20,M. Mellon,2,Mellon,M.,47,,0,0
+2025-12-20,M. Mellon,3,Mellon,M.,61,,0,0
+2025-12-29,B. Jackson,1,Jackson,B.,8,,0,0
+2025-12-29,C. Raglan,1,Raglan,C.,18,,0,0
+2025-12-29,I. Fletcher,1,Fletcher,I.,32,,0,0
+2026-01-10,M. Cheek,1,Cheek,M.,2,,0,0
+2026-01-10,M. Cheek,2,Cheek,M.,57,,0,0
+2026-01-17,P. Farquharson,1,Farquharson,P.,38,,0,0
+2026-01-17,D. Kanu,1,Kanu,D.,45,,0,0
+2026-01-17,J. Matt,1,Matt,J.,65,,0,0
+2026-01-24,S. Lavery,1,Lavery,S.,58,,0,0
+2026-01-24,K. Watts,1,Watts,K.,67,,0,0
+2026-01-24,K. Watts,2,Watts,K.,77,,0,0
+2026-01-24,B. Knight,1,Knight,B.,90,6.0,0,0
+2026-01-27,M. Shelton,1,Shelton,M.,90,6.0,0,0
+2026-01-31,J. Grant,1,Grant,J.,68,,0,0
+2026-01-31,K. N’Mai,1,N’Mai,K.,75,,0,0
+2026-02-07,R. Hale,1,Hale,R.,25,,0,0
+2026-02-07,R. Hale,2,Hale,R.,65,,0,0
